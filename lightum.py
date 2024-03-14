@@ -27,7 +27,7 @@ if current_os == "Windows":
     pystyle.Write.Print(pystyle.Center.XCenter(pystyle.Box.DoubleCube(menu)), pystyle.Colors.cyan_to_green, interval=0.001)
 elif current_os == "Linux" or current_os == "Darwin":
     os.system("clear")
-    starting = r"   __   ___________ __________  ____  ___\n  / /  /  _/ ___/ // /_  __/ / / /  |/  /\n / /___/ // (_ / _  / / / / /_/ / /|_/ / \n/____/___/\___/_//_/ /_/  \____/_/  /_/  \n"
+    starting = "   __   ___________ __________  ____  ___\n  / /  /  _/ ___/ // /_  __/ / / /  |/  /\n / /___/ // (_ / _  / / / / /_/ / /|_/ / \n/____/___/\___/_//_/ /_/  \____/_/  /_/  \n"
     pystyle.Write.Print((starting), pystyle.Colors.cyan_to_green, interval=0.001)
     menu = '\n1: ПОИСК ПО НОМЕРУ\n2: WEB-CRAWLER\n3: ПОИСК ПО IP\n4: cB@T Б@HB0Pд\n5: ПОРТ СКАНЕР\n6: DDOS\n7: ГЕНЕРАТОР СЛОЖНОГО ПАРОЛЯ\n8: ПОИСК ПО БД\n9: ГЕНЕРАТОР ВЫМЫШЛЕННОЙ ЛИЧНОСТИ\n10: ИНФОРМАЦИЯ О САЙТЕ\n11: ВЫХОД И ИНФОРМАЦИЯ\n12: ПОИСК ПО НИКУ'
     pystyle.Write.Print((menu), pystyle.Colors.cyan_to_green, interval=0.001)
